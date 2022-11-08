@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: #E5E5E5;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    color: #222222;
+}
+
+.main-container {
+    width: 550px;
+    background-color: #ffffff;
+}
+
+.website-header {
+    height: 70px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+}
+
+.main-logo {
+    padding-left: 36px;
+    width: 82.02px;
+    height: 25.35px;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+} 
+
+.hero-container > img {
+    width: 395.91px;
+    height: 232px;
+    padding-top: 26px;
+    align-self: center;
+}
+
+.hero-container > h1,p {
+    padding-left: 36px;
+    line-height: 110%;
+}
+
+.hero-container > h1 {
+    padding-top: 30px;
+    font-size: 36px;
+}
+
+.hero-container > p {
+    width: 320px;
+    font-size: 16px;
+    padding-bottom: 49px;
+}
+
+.card-container {
+    font-size: 12px;
+    line-height: 110%;
+    padding-left: 37px;
+    position: relative;
+}
+
+.card-container > img {
+    width: 176px;
+    height: 235px;
+    padding-bottom: 8px;
+    border-radius: 15px;
+}
+
+.star-icon {
+    width: 14px;
+    height: 14px;
+}
+.card-container > div {
+    padding-bottom: 8px;
+}
+
+.grey {
+    color: #918E9B;
+}
+
+.card-item {
+    display: flex;
+    overflow-y: scroll;
+    padding-right: 37px;
+    padding-bottom: 30px;
+}
+
+.card-badge {
+    position: absolute;
+    top: 9px;
+    left: 49px;
+    background-color: white;
+    padding: 4px;
+    border-radius: 4px;
+    opacity: 75%;
+    display: flex;
+    height: 10px;
+}
